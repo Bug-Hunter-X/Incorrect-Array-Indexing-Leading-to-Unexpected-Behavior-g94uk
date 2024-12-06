@@ -1,0 +1,2 @@
+# Incorrect Array Indexing in MATLAB
+This repository demonstrates a subtle error in MATLAB related to array indexing.  The function `myFunction` attempts to assign a value to a specific index of the `result` variable. However, if the input is less than or equal to 5, `result` is a scalar, not an array, leading to an error.  The solution demonstrates how to handle this situation using proper error checking and conditional indexing.
